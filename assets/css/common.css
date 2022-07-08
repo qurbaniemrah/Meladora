@@ -1,0 +1,13 @@
+/* Tekrarlanan kodlar ve reset */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-items-header {
+    text-align: center;
+}

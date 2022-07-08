@@ -1,0 +1,189 @@
+.banner {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../img/Main-banner/home-banner-2.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  position: relative;
+}
+
+/* navbar */
+#navbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-first i {
+  color: #91b40d;
+}
+
+.navbar-first a {
+  color: #fff;
+}
+
+.navbar-second {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-second li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.navbar-second a {
+  color: #fff;
+}
+
+.navbar-second a:hover {
+  color: #91b40d;
+  transition: all ease 0.4s;
+}
+
+.social-icons a {
+  padding: 0px 5px;
+}
+
+/* navbar */
+
+/* section box start */
+#box {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    
+  
+   
+}
+
+#box span {
+    color: #fff;
+}
+
+.box-first {
+    width: 100%;
+    height: 200px;
+   background-color: #1A5221;
+ background-image: url('../img/ourProducts/vippng.com-tropical-background-png-1555633.png');
+ background-repeat: no-repeat;
+}
+
+.box-first span {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.box-second {
+    width: 100%;
+    height: 200px;
+   background-color: #91B40D;
+background-image: url('../img/ourProducts/unnamed\ \(3\).png');
+background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-third {
+background-color: #FFBF00;
+       width: 100%;
+       height: 200px;
+  background-image: url('../img/ourProducts/flour-clip-art-21.png');
+  background-repeat: no-repeat;
+   }
+/* section box end */
+
+/* section about start */
+#about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+}
+
+.about-items-header {
+    text-align: center;
+}
+
+.about-items-content {
+    text-align: center;
+}
+
+.about-items-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-items-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-icons {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+/* section about end */
+
+/* section garden start */
+#garden {
+    width: 100%;
+    display: flex;
+}
+/* section garden end */
+
+/* section products start */
+#products {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+
+
+
+.product-box {
+    width: 100%;
+    height: 100%;
+}
+
+/* .product-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+/* Section products end */
+
+
