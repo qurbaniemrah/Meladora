@@ -1,3 +1,8 @@
+#header {
+  background-color: #1a5221;
+  /* display: none; */
+}
+
 .banner {
   width: 100%;
   height: 70vh;
@@ -5,8 +10,8 @@
   background-size: cover;
   object-fit: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
-  position: relative;
+  /* background-position: center;
+  position: relative; */
 }
 
 /* navbar */
@@ -15,6 +20,7 @@
   height: 90px;
   display: flex;
   flex-direction: column;
+
 }
 
 .navbar-first {
@@ -61,120 +67,112 @@
 
 /* section box start */
 #box {
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    
-  
-   
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: -100px; */
 }
 
 #box span {
-    color: #fff;
+  color: #fff;
 }
 
 .box-first {
-    width: 100%;
-    height: 200px;
-   background-color: #1A5221;
- background-image: url('../img/ourProducts/vippng.com-tropical-background-png-1555633.png');
- background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-color: #1a5221;
+  background-image: url("../img/ourProducts/vippng.com-tropical-background-png-1555633.png");
+  background-repeat: no-repeat;
 }
 
 .box-first span {
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
 }
 
 .box-second {
-    width: 100%;
-    height: 200px;
-   background-color: #91B40D;
-background-image: url('../img/ourProducts/unnamed\ \(3\).png');
-background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-color: #91b40d;
+  background-image: url("../img/ourProducts/unnamed\ \(3\).png");
+  background-repeat: no-repeat;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .box-third {
-background-color: #FFBF00;
-       width: 100%;
-       height: 200px;
-  background-image: url('../img/ourProducts/flour-clip-art-21.png');
+  background-color: #ffbf00;
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/ourProducts/flour-clip-art-21.png");
   background-repeat: no-repeat;
-   }
+}
 /* section box end */
 
 /* section about start */
 #about {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    margin-top: 100px;
-
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 100px;
 }
 
 .about-items-header {
-    text-align: center;
+  text-align: center;
 }
 
 .about-items-content {
-    text-align: center;
+  text-align: center;
 }
 
 .about-items-image {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .about-items-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-icons {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
 }
 /* section about end */
 
 /* section garden start */
 #garden {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* section garden end */
 
 /* section products start */
 #products {
-    width: 100%;
-  height: 100vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
- 
 }
 
 .products-nav {
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .products-nav li {
@@ -186,9 +184,8 @@ background-color: #FFBF00;
   color: black;
 }
 
-
 .products-nav li a:hover {
-  color: #91B40D;
+  color: #91b40d;
   transition: all ease 0.4s;
 }
 
@@ -196,16 +193,12 @@ background-color: #FFBF00;
   width: 100%;
   height: 100%;
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    gap: 50;
- 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  gap: 50;
 }
-
-
-
 
 .product-box-name {
   text-align: center;
@@ -213,29 +206,51 @@ background-color: #FFBF00;
   box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
 }
 
-
 /* Section products end */
 
 /* Section blog start */
 #blog {
   width: 100%;
-height: auto;
   display: flex;
-  flex-wrap: wrap;
- 
 }
 
 .blog-items {
   width: 100%;
   height: 100%;
- 
 }
 
-.blog-items img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.blog-items-footer {
+  color: black;
 }
 /* Section blog end */
 
+/* fotter banner */
+.footer-banner {
+  width: 100%;
+  display: flex;
+  /* height: 70vh; */
+  background-image: url("../img/footer/ezgif.com-gif-maker\ \(1\).png");
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+/* fotter banner */
 
+/* footer */
+.footer {
+  width: 100%;
+    background: url(../img/footer/ezgif.com-gif-maker\ \(1\).png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 17rem;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.copyright p {
+color: #fff;
+}
+/* footer */

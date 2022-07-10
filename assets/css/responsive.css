@@ -1,6 +1,29 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
- 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.banner {
+    width: 100%;
+    
+}
+
+.box-first {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.garden-items {
+    width:100%;
+    display: block;
+}
+
+.garden-items-content {
+    display: block;
+}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
